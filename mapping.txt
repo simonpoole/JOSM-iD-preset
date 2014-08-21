@@ -1,0 +1,8 @@
+address	<text key="addr:housename" text="House name" match="key" alternative_autocomplete_keys="name" />"
+address	<text key="addr:street" text="Street name" use_last_as_default="force" match="key" alternative_autocomplete_keys="name" />"
+address	<text key="addr:place" text="Place name" use_last_as_default="force" match="key" alternative_autocomplete_keys="name" />"
+address	<text key="addr:city" text="City name" use_last_as_default="force" match="key" />"
+address	<text key="addr:postcode" text="Post code" use_last_as_default="force" match="key" />"
+address	<combo key="addr:country" text="Country code" values_from="java.util.Locale#getISOCountries" use_last_as_default="force" match="key" />"
+cuisine	<multiselect key="cuisine" text="Cuisine" values="italian;chinese;pizza;burger;greek;german;indian;regional;kebab;turkish;asian;thai;mexican;japanese;french;sandwich;sushi" values_searchable="true" />
+emergency	<combo key="emergency" text="Emergency vehicles" values="yes,official,designated,destination,permissive,private,no" match="keyvalue" />

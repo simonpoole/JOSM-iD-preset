@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+	<group name="Land Use" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-land-use.png">
+		<item name="Residential" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-building.png" type="closedway">
+			<label text="Edit Residential" />
+			<space />
+			<key key="landuse" value="residential" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Industrial" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-industrial.png" type="closedway">
+			<label text="Edit Industrial" />
+			<space />
+			<key key="landuse" value="industrial" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Commercial" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-commercial.png" type="closedway">
+			<label text="Edit Commercial" />
+			<space />
+			<key key="landuse" value="commercial" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Retail" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-shop.png" type="closedway">
+			<label text="Edit Retail" />
+			<space />
+			<key key="landuse" value="retail" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Farm" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-farm.png" type="closedway">
+			<label text="Edit Farm" />
+			<space />
+			<key key="landuse" value="farm" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Farmyard" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-farm.png" type="closedway">
+			<label text="Edit Farmyard" />
+			<space />
+			<key key="landuse" value="farmyard" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Forest" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-park2.png" type="closedway">
+			<label text="Edit Forest" />
+			<space />
+			<key key="landuse" value="forest" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Meadow" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-marker-stroked.png" type="closedway">
+			<label text="Edit Meadow" />
+			<space />
+			<key key="landuse" value="meadow" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Cemetery" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-cemetery.png" type="closedway">
+			<label text="Edit Cemetery" />
+			<space />
+			<key key="landuse" value="cemetery" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Military" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/landuse-marker-stroked.png" type="closedway">
+			<label text="Edit Military" />
+			<space />
+			<key key="landuse" value="military" />
+			<optional>
+			</optional>
+		</item>
+	</group>
+	<group name="Building" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-building.png">
+		<item name="House" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/building-building.png" type="closedway">
+			<label text="Edit House" />
+			<space />
+			<key key="building" value="house" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Apartments" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/building-commercial.png" type="closedway">
+			<label text="Edit Apartments" />
+			<space />
+			<key key="building" value="apartments" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Commercial Building" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/building-commercial.png" type="closedway">
+			<label text="Edit Commercial Building" />
+			<space />
+			<key key="building" value="commercial" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Industrial Building" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/building-industrial.png" type="closedway">
+			<label text="Edit Industrial Building" />
+			<space />
+			<key key="building" value="industrial" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Residential Building" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/building-building.png" type="closedway">
+			<label text="Edit Residential Building" />
+			<space />
+			<key key="building" value="residential" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Building" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/building-building.png" type="closedway">
+			<label text="Edit Building" />
+			<space />
+			<key key="building" value="*" />
+			<optional>
+			</optional>
+		</item>
+	</group>
+	<group name="Water" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-water.png">
+		<item name="Lake" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/natural-water.png" type="closedway">
+			<label text="Edit Lake" />
+			<space />
+			<key key="natural" value="water" />
+			<key key="water" value="lake" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Pond" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/natural-water.png" type="closedway">
+			<label text="Edit Pond" />
+			<space />
+			<key key="natural" value="water" />
+			<key key="water" value="pond" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Reservoir" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/natural-water.png" type="closedway">
+			<label text="Edit Reservoir" />
+			<space />
+			<key key="natural" value="water" />
+			<key key="water" value="reservoir" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Water" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/natural-water.png" type="closedway">
+			<label text="Edit Water" />
+			<space />
+			<key key="natural" value="water" />
+			<optional>
+			</optional>
+		</item>
+	</group>
+	<item name="Park" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/leisure-park.png" type="closedway">
+		<label text="Edit Park" />
+		<space />
+		<key key="leisure" value="park" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Hospital Grounds" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/area-hospital.png" type="closedway">
+		<label text="Edit Hospital Grounds" />
+		<space />
+		<key key="amenity" value="hospital" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Place of Worship" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/area-place-of-worship.png" type="closedway">
+		<label text="Edit Place of Worship" />
+		<space />
+		<key key="amenity" value="place_of_worship" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Cafe" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/area-cafe.png" type="closedway">
+		<label text="Edit Cafe" />
+		<space />
+		<key key="amenity" value="cafe" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Restaurant" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/area-restaurant.png" type="closedway">
+		<label text="Edit Restaurant" />
+		<space />
+		<key key="amenity" value="restaurant" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Area" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/area-marker-stroked.png" type="closedway">
+		<label text="Edit Area" />
+		<space />
+		<key key="area" value="yes" />
+		<optional>
+		</optional>
+	</item>
+	<group name="Road" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-roads.png">
+		<item name="Residential Road" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-residential.png" type="way">
+			<label text="Edit Residential Road" />
+			<space />
+			<key key="highway" value="residential" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Motorway" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-motorway.png" type="way">
+			<label text="Edit Motorway" />
+			<space />
+			<key key="highway" value="motorway" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Trunk Road" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-trunk.png" type="way">
+			<label text="Edit Trunk Road" />
+			<space />
+			<key key="highway" value="trunk" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Primary Road" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-primary.png" type="way">
+			<label text="Edit Primary Road" />
+			<space />
+			<key key="highway" value="primary" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Secondary Road" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-secondary.png" type="way">
+			<label text="Edit Secondary Road" />
+			<space />
+			<key key="highway" value="secondary" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Tertiary Road" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-tertiary.png" type="way">
+			<label text="Edit Tertiary Road" />
+			<space />
+			<key key="highway" value="tertiary" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Service Road" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-service.png" type="way">
+			<label text="Edit Service Road" />
+			<space />
+			<key key="highway" value="service" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Motorway Link" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-motorway-link.png" type="way">
+			<label text="Edit Motorway Link" />
+			<space />
+			<key key="highway" value="motorway_link" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Trunk Link" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-trunk-link.png" type="way">
+			<label text="Edit Trunk Link" />
+			<space />
+			<key key="highway" value="trunk_link" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Primary Link" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-primary-link.png" type="way">
+			<label text="Edit Primary Link" />
+			<space />
+			<key key="highway" value="primary_link" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Secondary Link" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-secondary-link.png" type="way">
+			<label text="Edit Secondary Link" />
+			<space />
+			<key key="highway" value="secondary_link" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Tertiary Link" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-tertiary-link.png" type="way">
+			<label text="Edit Tertiary Link" />
+			<space />
+			<key key="highway" value="tertiary_link" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Unclassified Road" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-unclassified.png" type="way">
+			<label text="Edit Unclassified Road" />
+			<space />
+			<key key="highway" value="unclassified" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Track" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-track.png" type="way">
+			<label text="Edit Track" />
+			<space />
+			<key key="highway" value="track" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Unknown Road" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-road.png" type="way">
+			<label text="Edit Unknown Road" />
+			<space />
+			<key key="highway" value="road" />
+			<optional>
+			</optional>
+		</item>
+	</group>
+	<group name="Rail" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-rail.png">
+		<item name="Rail" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/railway-rail.png" type="way">
+			<label text="Edit Rail" />
+			<space />
+			<key key="railway" value="rail" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Subway" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/railway-subway.png" type="way">
+			<label text="Edit Subway" />
+			<space />
+			<key key="railway" value="subway" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Tram" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/railway-light-rail.png" type="way">
+			<label text="Edit Tram" />
+			<space />
+			<key key="railway" value="tram" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Monorail" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/railway-monorail.png" type="way">
+			<label text="Edit Monorail" />
+			<space />
+			<key key="railway" value="monorail" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Disused Railway" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/railway-disused.png" type="way">
+			<label text="Edit Disused Railway" />
+			<space />
+			<key key="railway" value="disused" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Abandoned Railway" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/railway-abandoned.png" type="way">
+			<label text="Edit Abandoned Railway" />
+			<space />
+			<key key="railway" value="abandoned" />
+			<optional>
+			</optional>
+		</item>
+	</group>
+	<group name="Path" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-path.png">
+		<item name="Foot Path" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-footway.png" type="way">
+			<label text="Edit Foot Path" />
+			<space />
+			<key key="highway" value="footway" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Cycle Path" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-cycleway.png" type="way">
+			<label text="Edit Cycle Path" />
+			<space />
+			<key key="highway" value="cycleway" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Bridle Path" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-bridleway.png" type="way">
+			<label text="Edit Bridle Path" />
+			<space />
+			<key key="highway" value="bridleway" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Path" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-path.png" type="way">
+			<label text="Edit Path" />
+			<space />
+			<key key="highway" value="path" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Steps" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/highway-steps.png" type="way">
+			<label text="Edit Steps" />
+			<space />
+			<key key="highway" value="steps" />
+			<optional>
+			</optional>
+		</item>
+	</group>
+	<group name="Water" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-water2.png">
+		<item name="River" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/waterway-river.png" type="way">
+			<label text="Edit River" />
+			<space />
+			<key key="waterway" value="river" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Stream" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/waterway-stream.png" type="way">
+			<label text="Edit Stream" />
+			<space />
+			<key key="waterway" value="stream" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Canal" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/waterway-canal.png" type="way">
+			<label text="Edit Canal" />
+			<space />
+			<key key="waterway" value="canal" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Ditch" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/waterway-ditch.png" type="way">
+			<label text="Edit Ditch" />
+			<space />
+			<key key="waterway" value="ditch" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Drain" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/waterway-stream.png" type="way">
+			<label text="Edit Drain" />
+			<space />
+			<key key="waterway" value="drain" />
+			<optional>
+			</optional>
+		</item>
+	</group>
+	<item name="Power Line" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/power-line.png" type="way">
+		<label text="Edit Power Line" />
+		<space />
+		<key key="power" value="line" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Line" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/line-marker-stroked.png" type="way">
+		<label text="Edit Line" />
+		<space />
+		<optional>
+		</optional>
+	</item>
+	<item name="Park" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-park.png" type="node">
+		<label text="Edit Park" />
+		<space />
+		<key key="leisure" value="park" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Hospital Grounds" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-hospital.png" type="node">
+		<label text="Edit Hospital Grounds" />
+		<space />
+		<key key="amenity" value="hospital" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Place of Worship" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-place-of-worship.png" type="node">
+		<label text="Edit Place of Worship" />
+		<space />
+		<key key="amenity" value="place_of_worship" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Cafe" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-cafe.png" type="node">
+		<label text="Edit Cafe" />
+		<space />
+		<key key="amenity" value="cafe" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Restaurant" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-restaurant.png" type="node">
+		<label text="Edit Restaurant" />
+		<space />
+		<key key="amenity" value="restaurant" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Bar" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-bar.png" type="node">
+		<label text="Edit Bar" />
+		<space />
+		<key key="amenity" value="bar" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Bank" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-bank.png" type="node">
+		<label text="Edit Bank" />
+		<space />
+		<key key="amenity" value="bank" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Supermarket" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-grocery.png" type="node">
+		<label text="Edit Supermarket" />
+		<space />
+		<key key="shop" value="supermarket" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Point" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-marker-stroked.png" type="node">
+		<label text="Edit Point" />
+		<space />
+		<optional>
+		</optional>
+	</item>
+	<item name="Crosswalk" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-marker-stroked.png" type="node">
+		<label text="Edit Crosswalk" />
+		<space />
+		<key key="highway" value="crossing" />
+		<key key="crossing" value="zebra" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Level Crossing" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-cross.png" type="node">
+		<label text="Edit Level Crossing" />
+		<space />
+		<key key="railway" value="level_crossing" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Traffic Signals" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-marker-stroked.png" type="node">
+		<label text="Edit Traffic Signals" />
+		<space />
+		<key key="highway" value="traffic_signals" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Turning Circle" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-circle.png" type="node">
+		<label text="Edit Turning Circle" />
+		<space />
+		<key key="highway" value="turning_circle" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Mini-Roundabout" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-marker-stroked.png" type="node">
+		<label text="Edit Mini-Roundabout" />
+		<space />
+		<key key="highway" value="mini_roundabout" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Motorway Junction / Exit" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-marker-stroked.png" type="node">
+		<label text="Edit Motorway Junction / Exit" />
+		<space />
+		<key key="highway" value="motorway_junction" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Other" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/point-marker-stroked.png" type="node">
+		<label text="Edit Other" />
+		<space />
+		<optional>
+		</optional>
+	</item>
+	<group name="Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-route.png">
+		<item name="Road Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-road.png" type="relation">
+			<label text="Edit Road Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="road" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Cycle Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-bicycle.png" type="relation">
+			<label text="Edit Cycle Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="bicycle" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Foot Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-foot.png" type="relation">
+			<label text="Edit Foot Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="foot" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Hiking Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-foot.png" type="relation">
+			<label text="Edit Hiking Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="hiking" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Bus Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-bus.png" type="relation">
+			<label text="Edit Bus Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="bus" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Train Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-train.png" type="relation">
+			<label text="Edit Train Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="train" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Tram Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-tram.png" type="relation">
+			<label text="Edit Tram Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="tram" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Ferry Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-ferry.png" type="relation">
+			<label text="Edit Ferry Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="ferry" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Power Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-power.png" type="relation">
+			<label text="Edit Power Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="power" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Pipeline Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-pipeline.png" type="relation">
+			<label text="Edit Pipeline Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="pipeline" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Detour Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-detour.png" type="relation">
+			<label text="Edit Detour Route" />
+			<space />
+			<key key="type" value="route" />
+			<key key="route" value="detour" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Route Master" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-master.png" type="relation">
+			<label text="Edit Route Master" />
+			<space />
+			<key key="type" value="route_master" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Route" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/route-route.png" type="relation">
+			<label text="Edit Route" />
+			<space />
+			<key key="type" value="route" />
+			<optional>
+			</optional>
+		</item>
+	</group>
+	<group name="Restriction" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-restriction.png">
+		<item name="No Left Turn" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/restriction-no-left.png" type="relation">
+			<label text="Edit No Left Turn" />
+			<space />
+			<key key="type" value="restriction" />
+			<key key="restriction" value="no_left_turn" />
+			<optional>
+			</optional>
+		</item>
+		<item name="No Right Turn" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/restriction-no-right.png" type="relation">
+			<label text="Edit No Right Turn" />
+			<space />
+			<key key="type" value="restriction" />
+			<key key="restriction" value="no_right_turn" />
+			<optional>
+			</optional>
+		</item>
+		<item name="No Straight On" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/restriction-no-straight.png" type="relation">
+			<label text="Edit No Straight On" />
+			<space />
+			<key key="type" value="restriction" />
+			<key key="restriction" value="no_straight_on" />
+			<optional>
+			</optional>
+		</item>
+		<item name="No U-turn" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/restriction-no-u.png" type="relation">
+			<label text="Edit No U-turn" />
+			<space />
+			<key key="type" value="restriction" />
+			<key key="restriction" value="no_u_turn" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Left Turn Only" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/restriction-only-left.png" type="relation">
+			<label text="Edit Left Turn Only" />
+			<space />
+			<key key="type" value="restriction" />
+			<key key="restriction" value="only_left_turn" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Right Turn Only" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/restriction-only-right.png" type="relation">
+			<label text="Edit Right Turn Only" />
+			<space />
+			<key key="type" value="restriction" />
+			<key key="restriction" value="only_right_turn" />
+			<optional>
+			</optional>
+		</item>
+		<item name="No Turns" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/restriction-only-straight.png" type="relation">
+			<label text="Edit No Turns" />
+			<space />
+			<key key="type" value="restriction" />
+			<key key="restriction" value="only_straight_on" />
+			<optional>
+			</optional>
+		</item>
+		<item name="Restriction" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/category-restriction.png" type="relation">
+			<label text="Edit Restriction" />
+			<space />
+			<key key="type" value="restriction" />
+			<optional>
+			</optional>
+		</item>
+	</group>
+	<item name="Boundary" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/boundary-boundary.png" type="relation">
+		<label text="Edit Boundary" />
+		<space />
+		<key key="type" value="boundary" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Multipolygon" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/multipolygon-multipolygon.png" type="relation">
+		<label text="Edit Multipolygon" />
+		<space />
+		<key key="type" value="multipolygon" />
+		<optional>
+		</optional>
+	</item>
+	<item name="Relation" icon="https://raw.githubusercontent.com/escoand/JOSM-iD-preset/master/output/relation-relation.png" type="relation">
+		<label text="Edit Relation" />
+		<space />
+		<optional>
+		</optional>
+	</item>
+</presets>
